@@ -1,26 +1,3 @@
-/**	
-	* Template Name: Kevin
-	* Version: 1.0	
-	* Template Scripts
-	* Author: MarkUps
-	* Author URI: http://www.markups.io/
-
-	Custom JS
-	
-	1. FIXED MENU
-	2. FEATURED SLIDE ( TYPED SLIDER )
-	3. SKILL PROGRESS BAR
-	4. MENU SMOOTH SCROLLING
-	5. MOBILE MENU CLOSE  
-	6. PORTFOLIO GALLERY
-	7. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
-	8. CLIENT TESTIMONIALS ( SLICK SLIDER )
-	9. BUTTON SMOOTH SCROLL ( VIEW MY WORK )
-	
-**/
-
-
-
 (function( $ ){
 
 
@@ -62,22 +39,22 @@
 		$('.mu-skill-progress-bar').appear(function() {
 
 		 	$('.mu-html5-bar').LineProgressbar({
-				percentage: 95,
+				percentage: 75,
 				triggerOnce: true
 			});
 
 			$('.mu-css-bar').LineProgressbar({
-				percentage: 90,
+				percentage: 60,
 				triggerOnce: true
 			});
 
 			$('.mu-photoshop-bar').LineProgressbar({
-				percentage: 85,
+				percentage: 65,
 				triggerOnce: true
 			});
 
 			$('.mu-wordpress-bar').LineProgressbar({
-				percentage: 80,
+				percentage: 55,
 				triggerOnce: true
 			});
 
