@@ -463,12 +463,26 @@ button:focus {
 
 .mu-skill-progress-bar {
 	display: inline;
-	float: left;
 	width: 100%;
 }
 
 .mu-skill-progress-bar h3 {
 	margin-top: 20px;
+}
+.mu-comp{
+	padding: 10px;
+}
+
+
+.mu-logo{
+	display: inline;
+	width: 50px;
+	height: 50px;
+}
+
+.mu-langage{
+	display: inline;
+	margin-left: 50px;
 }
 
 .mu-skill-progress-bar>span {
